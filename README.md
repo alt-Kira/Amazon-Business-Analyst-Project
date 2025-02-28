@@ -1,4 +1,4 @@
-# 📦 Amazon Business Analyst Project: Delivery Time Analysis & Delay Prediction
+# 📦 Amazon Business Reasearch Analyst Project: Delivery Time Analysis & Delay Prediction
 
 ## 📌 Overview
 
