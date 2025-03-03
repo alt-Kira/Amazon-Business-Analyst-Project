@@ -52,7 +52,7 @@ The dataset contains order details, delivery personnel information, location coo
 ## 📊 Exploratory Data Analysis (EDA)
 
 - Handle missing values and correct data types.
-- Calculate Order Processing Time and Delivery Duration.
+- Calculate Order Processing Time and Delivery Distance.
 - Identify patterns in delivery delays across different factors (weather, traffic, vehicle type, etc.).
 
 ## 🔮 Predictive Modeling
