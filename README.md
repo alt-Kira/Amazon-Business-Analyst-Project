@@ -1,4 +1,4 @@
-# 📦 Amazon Business Reasearch Analyst Project: Delivery Time Analysis & Delay Prediction
+# 📦 Amazon Business Research Analyst Project: Delivery Time Analysis & Delay Prediction
 
 ## 📌 Overview
 
@@ -22,27 +22,31 @@ The dataset contains order details, delivery personnel information, location coo
 
 ### Key Columns
 
-```bash
-- Order_Date
-- Time_Orderd
-- Time_Order_picked
-- Restaurant_latitude
-- Restaurant_longitude
-- Delivery_location_latitude
-- Delivery_location_longitude
-- Weather
-- Road_traffic_density
-- Delivery_person_Age
-- Delivery_person_Ratings
-- Type_of_vehicle
-- multiple_deliveries
+```bash 
+ - ID                          
+ - Delivery_person_ID           
+ - Delivery_person_Age          
+ - Delivery_person_Ratings      
+ - Restaurant_latitude          
+ - Restaurant_longitude         
+ - Delivery_location_latitude   
+ - Delivery_location_longitude  
+ - Time_Orderd                  
+ - Time_Order_picked             
+ - Weatherconditions            
+ - Road_traffic_density         
+ - Vehicle_condition           
+ - Type_of_order                 
+ - Type_of_vehicle               
+ - multiple_deliveries          
+ - Festival                      
+ - City                          
+ - Time_taken(min)
 ```
 
 ## 🛠 Tech Stack
 
 - Python (Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn)
-- SQL (for querying and data manipulation)
-- Power BI / Tableau (for visualization)
 - Jupyter Notebook (for analysis and modeling)
 
 ## 📊 Exploratory Data Analysis (EDA)
@@ -59,10 +63,9 @@ The dataset contains order details, delivery personnel information, location coo
 
 ## 📈 Insights & Recommendations
 
-- Traffic Impact: Orders in 'Jam' conditions take X% longer than normal.
-- Weather Impact: 'Stormy' and 'Foggy' conditions cause an average delay of Y minutes.
-- Vehicle Type: Motorcycles deliver faster than electric scooters.
-- Business Suggestion: Adjust delivery time estimates dynamically based on traffic and weather predictions.
+- Traffic Impact: Orders in 'Jam' conditions take 43.81% longer than normal.
+- Weather Impact: 'Cloudy' and 'Foggy' conditions cause the highest delay.
+- Vehicle Type: The fastest vehicle is: Motorcycle with an average delivery time of 24.03 minutes. The slowest vehicle is: Scooter with an average delivery time of 27.85 minutes.
 
 ## 🚀 How to Use This Project
 
